@@ -1,0 +1,17 @@
+/*class*/
+.one{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+/*by id*/
+#two
+{
+    background-color: green;
+    color: yellow;
+}
+/*universal selector*/
+*{
+    color: black;
+    background-color: red;
+}
