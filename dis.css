@@ -1,0 +1,42 @@
+
+.navi{
+    background-color: black;
+    color: white;   
+}
+li,ul{
+    display: inline;
+}
+h1
+{
+    margin-left: 45%;
+    padding-top: 10px;
+}
+ul
+{
+    margin-left: 38%;
+}
+li
+{
+    margin-bottom: 20px;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+.body
+{
+    padding: 100px;
+    margin-left: 150px;
+}
+.one{
+    width: 200px; 
+   border: 3px black solid;
+   display: inline-block;
+   
+}
+
+.contact{
+    background-color: black;
+    color: whitesmoke;
+
+}
