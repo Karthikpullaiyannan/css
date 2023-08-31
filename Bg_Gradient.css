@@ -1,0 +1,28 @@
+.linear
+{
+    width: auto;
+    height: 500px;
+    
+    background: linear-gradient( to right, red,orange,yellow);
+    background: linear-gradient( to top right, red,orange,yellow);
+    background: linear-gradient(to bottom left,black,green,white);
+
+}
+.radial
+{
+    width: auto;
+    height: 500px;
+    color: white;
+    
+    background: radial-gradient(black,brown,red);
+
+}
+
+.opacity{
+    width: auto;
+    height: 500px;
+    
+    background-color: blue;
+    opacity: 0.5;
+    color: white;
+}
