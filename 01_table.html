@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Display Table</title>
+    </head>
+    <body>
+        <style>
+            h1{
+                padding-bottom: 30px;
+            }
+            table tr:nth-of-type(even){
+                background-color: red;
+            }
+        </style>
+        <center>
+        <h1>Display Table </h1>
+        <table
+        width="100px"
+        border="2px"
+        cellpadding="30px"
+        cellspacing="1px"
+        >
+            <tr>
+                <caption>Menu</caption>
+                <thead>
+                    <th>Items</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                </thead>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Chocobar</td>
+                    <td colspan="2">200</td>
+                    
+                </tr>
+                <tr>
+                    <td>vennila</td>
+                    <td>10</td>
+                    
+                    <td rowspan="2">5%</td>
+                </tr>
+                <tr>
+                    <td>butterscotch</td>
+                    <td>300</td>
+                
+                </tr>
+                <tr>
+                    <tfoot>
+                       
+                        <td colspan="3" style="text-align: center;">all varity are available</td>
+                       
+                    </tfoot>
+                </tr>
+            </tbody>
+        </table>
+        </center>
+    </body>
+</html>
