@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Selector</title>
+</head>
+<body>
+    <style>
+        :root{
+            --background: lightcoral;
+            --border: 2px solid red;
+            --padding: 3px;
+            --color:green;
+        }
+        div{
+            background-color: lightskyblue;
+            border: 2px solid black;
+            padding: 2px;
+        }
+        div{
+            background-color: var(--background);
+            border: var(--border);
+        }
+        p{
+            color: var(--color);
+
+        }
+    </style>
+    <div>
+        <h3>Root Selector</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fugiat quasi a nam facere placeat possimus adipisci suscipit illo autem reiciendis modi fugit, impedit incidunt id laborum, ex sapiente nulla sunt beatae pariatur dicta culpa. Optio tempore natus doloribus mollitia possimus minima, impedit laudantium rem eaque ipsa iusto sequi ex reprehenderit, labore nobis nulla voluptates. Molestiae expedita hic magni alias dolore omnis aut, laudantium vel rem asperiores facere tenetur a. Nam nesciunt optio cumque minus ullam delectus nihil beatae consequatur qui at, magni nemo ab facilis? Debitis perspiciatis necessitatibus corporis soluta eius modi sequi dicta nisi error? Corporis, optio sunt.</p>
+
+    </div>
+</body>
+</html>
