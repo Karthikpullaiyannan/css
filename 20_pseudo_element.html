@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input::placeholder{
+            color: red;
+        }
+        p::selection{
+            background-color: aqua;
+            color: green;
+        }
+        p::first-letter{
+            font-size: 30px;
+            color:red;
+        }
+        p::first-line{
+            background-color: grey;
+        }
+        .box{
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            background-color: grey;
+            color: white;
+        }
+        .box::before{
+            content: ' ';
+            width: 100%;
+            height: 30px;
+            background-color: red;
+            display: block;
+        }
+        .box::after{
+            content: ' ';
+            width: 100%;
+            height: 30px;
+            background-color: red;
+            display: block;
+        }
+    </style>
+    <div class="box">Pseudo selector</div>
+    <div class="para">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet possimus nulla voluptatem dolores blanditiis, necessitatibus voluptates ipsam quia consectetur expedita nisi placeat molestias vitae sapiente error inventore ipsa iste dolorem, temporibus odit quod libero, quam iure quaerat. Ab nesciunt quas modi minus consequatur vitae beatae possimus iusto sunt, nulla dolores voluptas explicabo soluta dolor voluptatum eos dolorum, architecto mollitia? Aperiam vero explicabo tempora! Dolore illum sapiente dicta, nisi aspernatur ratione!
+        </p>
+    </div>
+    <div class="para">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iure voluptatem ab quidem veniam cumque, fuga impedit consequuntur, dolore facere earum obcaecati necessitatibus sint quas atque quo velit ducimus aliquid, quaerat eos rem? Libero modi dolor distinctio odit reiciendis iusto, nam maiores veritatis, perspiciatis voluptates fugit hic id similique assumenda!
+        </p>
+    </div>
+    <div class="para">
+        <input type="text" placeholder="enter your name">
+    </div>
+</body>
+</html>
